@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <router-view name="index"></router-view>
     <router-view/>
   </div>
 </template>
@@ -14,10 +13,9 @@ export default {
 <style>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
-/*  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;*/
-/* text-align: center;*/ /*全局居中了*/
-/*  color: #2c3e50;*/
-
+ -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ text-align: center; /*全局居中了*/
+  color: #2c3e50;
 }
 </style>

@@ -1,6 +1,5 @@
 <template>
   <div class="hello">
-    <mt-header fixed title="123"></mt-header>
     <h1>{{ msg }}</h1>
   </div>
 </template>
